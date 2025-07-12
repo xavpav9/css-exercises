@@ -1,6 +1,14 @@
+* {
+	font-family: "Courier New", monospace;
+	font-weight: 700;
+}
+
 .header  {
-  font-family: monospace;
   background: papayawhip;
+  display: flex;
+  padding: 6px;
+  justify-content: center;
+  align-items: center;
 }
 
 .logo {
@@ -9,14 +17,25 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+  margin: 0 auto;
 }
 
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  display
 }
 
-a {
+.left-links ul , .right-links ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 0px;
+}
+
+
+a{
   font-size: 22px;
   background: white;
   padding: 8px;
